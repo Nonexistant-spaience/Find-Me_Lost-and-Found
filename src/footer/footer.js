@@ -42,13 +42,13 @@ const Footer = () => {
           <div className="sb__footer-links_div">
             <h4>Feedback</h4>
             <a href="/resources">
-              <a href="https://upes-open.org/contact" ><p>Email</p></a>
+              <a href="https://kali.org/contact" ><p>Email</p></a>
             </a>
             <a href="/resources">
-              <a href="https://upes-open.org/contact"><p>Contact Number</p></a> 
+              <a href="https://kali.org/contact"><p>Contact Number</p></a> 
             </a>
             <a href="/resources">
-              <a href='https://www.upes.ac.in/'><p>Visit Us</p></a> 
+              <a href='https://kali.org/'><p>Visit Us</p></a> 
             </a>
           </div>
           <div className="sb__footer-links_div">
