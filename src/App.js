@@ -37,6 +37,7 @@ const AppContent = () => {
             <Route path="/login" element={<Login theme={theme} />} />
             {/* Non-protected routes */}
             <Route path="/about" element={<AboutUs theme={theme} />} />
+            <Route path="/faq" element={<Faq theme={theme} />} />
 
 
             {/* Protected routes */}
