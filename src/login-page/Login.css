@@ -863,6 +863,118 @@ form {
 .login-container.dark .demo-credentials p {
     color: #9ca3af;
 }
+/* Card Footer */
+.card-footer {
+    background: rgba(248, 250, 252, 0.8);
+    padding: 20px 30px;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+}
+
+.login-container.dark .card-footer {
+    background: rgba(17, 24, 39, 0.8);
+    border-top-color: rgba(75, 85, 99, 0.3);
+}
+
+.card-footer p {
+    font-size: 14px;
+    color: #64748b;
+    margin: 8px 0;
+    font-family: "Inter", sans-serif;
+}
+
+.login-container.dark .card-footer p {
+    color: #94a3b8;
+}
+
+.footer-link {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    display: inline;
+}
+
+.footer-link:hover {
+    color: #4f46e5;
+    text-decoration: underline;
+}
+
+.login-container.dark .footer-link {
+    color: #a78bfa;
+}
+
+.login-container.dark .footer-link:hover {
+    color: #c4b5fd;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 15px;
+    }
+
+    .login-card {
+        border-radius: 16px;
+    }
+
+    .card-header {
+        padding: 30px 20px 20px;
+    }
+
+    .card-body {
+        padding: 0 20px 20px;
+    }
+
+    .card-footer {
+        padding: 15px 20px;
+    }
+
+    .brand-title {
+        font-size: 24px;
+    }
+
+    .logo-circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo-icon {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .card-header {
+        padding: 25px 15px 15px;
+    }
+
+    .card-body {
+        padding: 0 15px 15px;
+    }
+
+    .card-footer {
+        padding: 12px 15px;
+    }
+
+    .brand-title {
+        font-size: 22px;
+    }
+}
+
+/* Focus States for Accessibility */
+.signin-button:focus,
+.demo-button:focus,
+.input-field .MuiOutlinedInput-root.Mui-focused {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}
 
 
 /* Focus States for Accessibility */
