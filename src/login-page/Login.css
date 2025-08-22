@@ -388,6 +388,27 @@ form {
     color: #bbb;
 }
 
+/* Login Footer */
+.login-footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.modern-login-container.dark .login-footer {
+    color: #888;
+}
+
+.login-footer a {
+    color: #4776e6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
 
 /* Responsive Design */
 @media (max-width: 992px) {
