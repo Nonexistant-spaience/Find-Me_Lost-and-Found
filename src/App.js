@@ -8,6 +8,7 @@ import LostUpload from './lost-details-upload-page/LostUpload';
 import FoundUpload from './found-item-details-page/FoundUpload';
 import Login from "./login-page/Login";
 import ProtectedRoute from './ProtectedRoute';
+import Footer from "../src/Footer/Footer";
 import Confirm from './confirmation_page/Confirm';
 import { AuthProvider, useAuth } from './context/AuthContext';
 
@@ -48,6 +49,7 @@ const AppContent = () => {
             <Route path="/signout" element={<SignOut logout={logout} />} />
           </Routes>
           <GoToTop />
+          <Footer />
         </>)}
     </Router>
   );
