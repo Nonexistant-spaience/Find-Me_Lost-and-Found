@@ -156,7 +156,11 @@ export default function Login(props) {
 
                     <div className="demo-info">
                         <p>Demo Email: {demoAccount.email}</p>
-                        <p>Demo Password: {demoAccount.password}</p>
+                        <p>Demo Password: {demoAccount.password}
+                        <div className="login-footer">
+                            <p>
+                              Need help? <a href="#">Contact Support</a>
+                            </p>
                     </div>
 
                     
