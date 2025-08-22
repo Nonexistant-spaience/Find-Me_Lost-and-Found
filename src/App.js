@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar/Navbar";
+import FeedbackForm from "./feedback/FeedbackForm";
 import AboutUs from "./About/AboutUs";
 import Home from "./home-page/Home";
 import GoToTop from "./go-to-top/GoToTop";
@@ -44,6 +45,7 @@ const AppContent = () => {
             <Route path="/home" element={<ProtectedRoute><Home theme={theme} /></ProtectedRoute>} />
             <Route path="/lost" element={<ProtectedRoute><LostUpload theme={theme} /></ProtectedRoute>} />
             <Route path="/found" element={<ProtectedRoute><FoundUpload theme={theme} /></ProtectedRoute>} />
+            <Route path="/feedback" element={<ProtectedRoute><FeedbackForm theme={theme} /></ProtectedRoute>} />
      
 
             {/* Sign-out route */}
